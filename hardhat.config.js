@@ -14,6 +14,12 @@ const config = {
       accounts: [`0x${PRIVATE_KEY}`],
     },
   },
+  paths: {
+    sources: "./contracts",
+    tests: "./test",
+    cache: "./cache",
+    artifacts: "./artifacts",
+  },
 };
 
 // console.info(config);
